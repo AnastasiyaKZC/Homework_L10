@@ -172,6 +172,7 @@ cython_debug/
 
 #Allure
 tests/allure_results
+homework_10/allure_results
 
 # Idea
 .idea
