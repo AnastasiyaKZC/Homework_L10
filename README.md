@@ -91,5 +91,5 @@ addopts =
 
 
 для настройки теста добавить в modify --alluredir=allure-results
-для отображения результат выполнить команду: kuznetsova@MBP16M1MAX Homework_L10 % allure serve tests/allure-results
+для отображения результат выполнить команду: kuznetsova@MBP16M1MAX Homework_L10 % allure serve homework_10/allure-results
 
