@@ -1,4 +1,5 @@
 import allure
+from allure_commons.types import Severity
 from selene import browser, by, be
 from selene.support.shared.jquery_style import s
 
@@ -29,8 +30,14 @@ def open_issues_tab():
 def check_issue_visibility(issue_text):
     s(by.text(issue_text)).should(be.visible)
 
+@allure.tag("web")
+@allure.severity(Severity.MINOR)
+@allure.label("owner", "kuznetsova")
+@allure.feature("Задачи")
+@allure.story("Просмотр Issues")
+@allure.link("https://github.com", name="Testing")
 
-def test_github():
+def test_github_decor():
     repo_name = "AnastasiyaKZC/Homework_L10"
     issue_text = "Фича: “Добавить темную тему в UI.”"
 
