@@ -1,8 +1,8 @@
 # Homework_L10 - Allure Reports
 
-https://github.com/qa-guru/knowledge-base/wiki/9.-Allure-Reports-Python
+[ссылка на конспект лекции](https://github.com/qa-guru/knowledge-base/wiki/9.-Allure-Reports-Python)
 
-
+[ссылка на репозиторий](https://github.com/qa-guru/qa_guru_python_1_7)
 
 ИНСТРУКЦИЯ ПО УСТАНОВКЕ ALLURE
 
